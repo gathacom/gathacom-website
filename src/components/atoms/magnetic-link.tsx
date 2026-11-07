@@ -12,6 +12,7 @@ import { cn } from "@/lib/utils";
 
 type MagneticLinkProps = {
   href: string;
+  target?: string;
   children: ReactNode;
   className?: string;
   strength?: number;
@@ -19,6 +20,7 @@ type MagneticLinkProps = {
 
 export function MagneticLink({
   href,
+  target = "_self",
   children,
   className,
   strength = 0.22,
@@ -45,6 +47,7 @@ export function MagneticLink({
   return (
     <motion.a
       href={href}
+      target={target}
       className={cn("inline-flex will-change-transform", className)}
       style={shouldReduceMotion ? undefined : { x, y }}
       onPointerMove={handlePointerMove}

@@ -1,6 +1,11 @@
 "use client";
 
-import { AnimatePresence, motion, useMotionValueEvent, useScroll } from "framer-motion";
+import {
+  AnimatePresence,
+  motion,
+  useMotionValueEvent,
+  useScroll,
+} from "framer-motion";
 import { ArrowUpRight, Menu, X } from "lucide-react";
 import { useEffect, useState } from "react";
 
@@ -85,7 +90,8 @@ export function SiteHeader() {
 
           <div className="flex items-center gap-2">
             <MagneticLink
-              href="#contact"
+              href="/resume.pdf"
+              target="_blank"
               className="hidden items-center border-2 border-sage px-5 py-2.5 font-mono text-[11px] font-medium uppercase tracking-[0.14em] text-ink transition-colors duration-300 hover:bg-sage hover:text-canvas md:inline-flex"
             >
               Hire Me
