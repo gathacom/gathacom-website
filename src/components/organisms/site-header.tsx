@@ -169,7 +169,8 @@ export function SiteHeader() {
                     {site.email}
                   </LabelCaps>
                   <a
-                    href="#contact"
+                    href="/resume.pdf"
+                    target="_blank"
                     onClick={() => setOpen(false)}
                     className="shrink-0 border-2 border-sage px-4 py-2 font-mono text-[10px] uppercase tracking-[0.12em] text-sage transition-colors hover:bg-sage hover:text-canvas"
                   >

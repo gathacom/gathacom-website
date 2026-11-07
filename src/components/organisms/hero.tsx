@@ -76,17 +76,26 @@ export function Hero() {
             className="font-display text-[clamp(3.4rem,14vw,4.5rem)] uppercase leading-[0.88] tracking-[-0.02em] text-ink sm:text-[clamp(4rem,12vw,6rem)] lg:text-[clamp(5.5rem,8.4vw,7rem)] xl:text-display-xl"
           >
             <span className="block overflow-hidden pr-2">
-              <motion.span variants={line} className="block will-change-transform">
+              <motion.span
+                variants={line}
+                className="block will-change-transform"
+              >
                 I BUILD <span className="text-sage">MODERN</span>
               </motion.span>
             </span>
             <span className="block overflow-hidden pr-2">
-              <motion.span variants={line} className="block will-change-transform">
+              <motion.span
+                variants={line}
+                className="block will-change-transform"
+              >
                 WEBSITES THAT
               </motion.span>
             </span>
             <span className="block overflow-hidden pr-2">
-              <motion.span variants={line} className="block will-change-transform">
+              <motion.span
+                variants={line}
+                className="block will-change-transform"
+              >
                 WORK.
               </motion.span>
             </span>
@@ -170,7 +179,7 @@ export function Hero() {
                   height={512}
                   priority
                   sizes="(min-width: 1024px) 352px, (min-width: 640px) 320px, 280px"
-                  className="relative z-10 h-full w-full object-contain object-bottom drop-shadow-[0_18px_28px_rgba(0,0,0,0.75)] transition-transform duration-700 ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:scale-[1.03]"
+                  className="relative z-10 h-full w-full object-contain object-bottom drop-shadow-[0_18px_28px_rgba(0,0,0,0.75)] transition-transform duration-1000 ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:scale-[1.03]"
                 />
               </div>
 

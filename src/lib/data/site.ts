@@ -4,7 +4,7 @@ export const site = {
   role: "Fullstack Engineer",
   discipline: "Software Engineer / System Analyst",
   location: "Jakarta, ID",
-  email: "hello@gatha.dev",
+  email: "yogapasaribu000@gmail.com",
   degree: "Informatics Graduate, S.Kom // UPN 'Veteran' Yogyakarta",
   description:
     "Yoga Agatha Pasaribu (GATHA) is a fullstack engineer crafting high-performance web systems, clean architecture, and modern digital experiences.",
@@ -16,10 +16,10 @@ export const site = {
     { label: "Contact", href: "#contact" },
   ],
   socials: [
-    { label: "Instagram", href: "#" },
-    { label: "LinkedIn", href: "#" },
-    { label: "Dribbble", href: "#" },
-    { label: "Github", href: "https://github.com" },
+    { label: "Instagram", href: "https://instagram.com/yogaa.psb" },
+    { label: "LinkedIn", href: "https://linkedin.com/in/yoga-pasaribu" },
+    // { label: "Dribbble", href: "#" },
+    { label: "Github", href: "https://github.com/gathacom" },
   ],
 } as const;
 
